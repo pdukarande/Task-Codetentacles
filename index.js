@@ -9,7 +9,7 @@ let id = setInterval(function(){
 },20)
 function toggleNav() {
     var sidepanel = document.getElementById("mySidepanel");
-    sidepanel.classList.toggle('open');  
+    sidepanel.classList.add('open');  
   }
   function closeNav() {
     var sidepanel = document.getElementById("mySidepanel");
