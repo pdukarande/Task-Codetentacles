@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI task</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Css file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css"
+        integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+
+<body>
+    <section class="wrapper">
+        <header class="header pt-2 pb-2">
+            <div class="container" style="width: 85%;">
+
+                <nav>
+                    <div class="d-flex hamAlign">
+                        <div class="col-md-2 col-10 align-content-center">
+                            <img src="assets/illustration/logo.png" class="logo" alt="logo">
+                        </div>
+                        <div class="col-md-10  list">
+                            <ul class="col-md-7 col-lg-8  mb-0 d-flex justify-content-around align-items-center ">
+                                <li class="Bakbak">HOME <span><img class="arrow" src="assets/illustration/arrow-down.png"></span></li>
+                                <li class="Bakbak">ABOUT <span><img class="arrow" src="assets/illustration/arrow-down.png"></span>
+                                </li>
+                                <li class="Bakbak">ROADMAP <span><img class="arrow" src="assets/illustration/arrow-down.png"></span>
+                                </li>
+                                <li class="Bakbak">COLLECTION <span><img class="arrow"
+                                            src="assets/illustration/arrow-down.png"></span></li>
+                                <li class="Bakbak">FAQS <span><img class="arrow" src="assets/illustration/arrow-down.png"></span></li>
+                            </ul>
+                            <div class="d-flex col-md-5 col-lg-4  align-items-center justify-content-around">
+                                <div class="p-2 sunss">
+                                    <img src="assets/illustration/switch.png" alt="sun">
+                                </div>
+                                <div class="discard">
+                                    <img src="assets/illustration/Discord - Original.png">
+                                    <span class="Bakbak">DISCARD</span>
+                                </div>
+                                <div class="connect">
+                                    <img src="assets/illustration/Frame.png">
+                                    <span class="Bakbak">CONNECT</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hamB">
+                            <i class="fas fa-bars openbtn" onclick="toggleNav()" id="hamburger-menu"></i>
+                            <div id="mySidepanel" class="sidepanel text-center col-2 p-3 mt-2">
+                                <ul>
+                                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                                    <li class="Bakbak"><a>HOME</a></li>
+                                    <li class="Bakbak"><a>ABOUT</a></li>
+                                    <li class="Bakbak"><a>ROADMAP</a></li>
+                                    <li class="Bakbak"><a>COLLECTION</a></li>
+                                    <li class="Bakbak"><a>FAQS</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="main">
+            <div class="container"></div>
+            <div class="description text-center">
+                <h1 class="Bakbak">EXPLORE NFT COLLECTION</h1>
+                <div class="d-flex justify-content-center">
+                    <p class="desc_para poppins">A collection of 2525 highly-fashionable NFTs on the ETH Blockchain. Unique,
+                        metaverse-ready, and designed to benefit their holders.</p>
+                </div>
+                <button class="connect btnHover1 buttonszz Bakbak">CONNECT WALLET</button>
+                <button class="whitelist btnHover2 buttonszz Bakbak">WHITELIST NOW</button>
+            </div>
+        </div>
+        <div class="howto ">
+            <div class="container">
+                <h2 class="text-center Bakbak">HOW TO <span class="greenCLr Bakbak">NFTALIEN</span> WORK</h2>
+                <div class="row cardMain">
+                    <div class="card icon threeone anime col-lg-2 mt-5 col-sm-5 col-8">
+                        <div class="d-flex  justify-content-center">
+                            <img class="cartIcon" src="assets/illustration/Icon (1).png">
+                        </div>
+                        <span class="text-center greenCLr Bakbak pt-4">STEP1</span>
+                        <span class="text-center Bakbak">Connect Your Wallet</span>
+                    </div>
+                    <div class="card icon threeone  col-lg-2 mt-5 col-sm-5 col-8">
+                        <div class="d-flex justify-content-center">
+                            <img class="cartIcon" src="assets/illustration/Group1.png">
+                        </div>
+                        <span class="text-center greenCLr Bakbak pt-4">STEP2</span>
+                        <span class="text-center Bakbak">Connect Your Wallet</span>
+                    </div>
+                    <div class="card icon threeone anime col-lg-2 mt-5 col-sm-5 col-8">
+                        <div class="d-flex justify-content-center">
+                            <img class="cartIcon" src="assets/illustration/Group3.png">
+                        </div>
+                        <span class="text-center greenCLr Bakbak pt-4">STEP3</span>
+                        <span class="text-center Bakbak">Confirm the Transaction</span>
+                    </div>
+                    <div class="card icon threeone  col-lg-2 mt-5 col-sm-5 col-8">
+                        <div class="d-flex justify-content-center">
+                            <img class="cartIcon" src="assets/illustration/Group4.png">
+                        </div>
+                        <span class="text-center greenCLr Bakbak pt-4">STEP4</span>
+                        <span class="text-center Bakbak">receive Your NFTs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hotCOllection">
+            <div class="container ">
+                <h2 class="pt-5 alignheadfive Bakbak">HOT COLLECTION</h2>
+                <div class=" row cardMain">
+                    <div class="col-lg-2 anime col-8 col-sm-5 mt-5 card">
+                        <img src="assets/illustration/9+(1).png">
+                        <span class="pt-2 Bakbak">sKISIRS #02</span>
+                    </div>
+                    <div class="col-lg-2 col-8 col-sm-5 mt-5 card">
+                        <img src="assets/illustration/alx+(1)+(1).png">
+                        <span class="pt-2 Bakbak">sKISIRS #01</span>
+                    </div>
+                    <div class="col-lg-2 col-8 col-sm-5 mt-5 card">
+                        <img src="assets/illustration/blue+(1).png">
+                        <span class="pt-2 Bakbak">sKISIRS #03</span>
+                    </div>
+                    <div class="col-lg-2 col-8 col-sm-5 mt-5 card">
+                        <img src="assets/illustration/b4696056-b9dd-4a3d-9c34-216aacfa9c26.png">
+                        <span class="pt-2 Bakbak">sKISIRS #04</span>
+                    </div>
+                    <div class="col-lg-2 col-8 col-sm-5 mt-5 card">
+                        <img src="assets/illustration/alx+(1)+(1).png">
+                        <span class="pt-2 Bakbak">sKISIRS #05</span>
+                    </div>
+                    <div class="col-lg-2 anime col-8 col-sm-5 mt-5 card">
+                        <img src="assets/illustration/blue+(1).png">
+                        <span class="pt-2 Bakbak">sKISIRS #06</span>
+                    </div>
+                    <div class="col-lg-2 col-8 col-sm-5 mt-5 card">
+                        <img src="assets/illustration/b4696056-b9dd-4a3d-9c34-216aacfa9c26.png">
+                        <span class="pt-2 Bakbak">sKISIRS #02</span>
+                    </div>
+                    <div class="col-lg-2 col-8 col-sm-5 mt-5 card">
+                        <img src="assets/illustration/9+(1).png">
+                        <span class="pt-2 Bakbak">sKISIRS #09</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="aboutUs">
+            <div class="container backVector">
+                <div class="row">
+                    <div class="col-lg-6 vector">
+                        <div class="col-lg-11">
+                            <h2 class="Bakbak">THE STORY</h2>
+                            <p class="firstPara poppins">Our collection's priority is to reward NFT holders by
+                                developing
+                                utilities they can use
+                                in their current everyday life. Not in a hypothetical future.</p>
+                            <div class="d-flex">
+                                <div>
+                                    <span class="Bakbak ">Total Item</span>
+                                    <h3 class="counter Bakbak">2240+</h3>
+                                </div>
+                                <div class="mx-5">
+                                    <span class="Bakbak ">Profiles whitelisted</span>
+                                    <h3 class="counter Bakbak">1000+</h3>
+                                </div>
+                            </div>
+                            <button class="readMore mt-3"><span class="Bakbak">Read More</span></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row aligndiv">
+                            <div class="card cardAboutwidth up mt-3 col-9 col-md-6 ">
+                                <h4 class="numbers Bakbak">01</h4>
+                                <span class="position-absolute Bakbak cardTitle text-center">Daily Tokens</span>
+                                <p class="secondPara poppins">Earn interstellar tokens passively by staking your
+                                    collectible
+                                    NFT.</p>
+                            </div>
+                            <div class="card cardAboutwidth up mt-3 col-9 col-md-6">
+                                <h4 class="numbers Bakbak">02</h4>
+                                <span class="position-absolute Bakbak cardTitle text-center">Exclu. Discounts</span>
+                                <p class="secondPara poppins">Tokens and NFTs can be used for discounts at top fashion
+                                    brands.
+                                </p>
+                            </div>
+                            <div class="card cardAboutwidth down mt-3 col-9 col-md-6">
+                                <h4 class="numbers Bakbak">03</h4>
+                                <span class="position-absolute Bakbak cardTitle text-center">Galactic Merch</span>
+                                <p class="secondPara poppins">Members-only merch designed by David and other
+                                    world-renowned
+                                    artists.</p>
+                            </div>
+                            <div class="card cardAboutwidth down  mt-3 col-9 col-md-6">
+                                <h4 class="numbers Bakbak">04</h4>
+                                <span class="position-absolute Bakbak cardTitle text-center">Limited Collabs</span>
+                                <p class="secondPara poppins">Get limited-edition items from Alienverse collabs with
+                                    fashion and
+                                    luxury brands.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sponcers">
+            <div class="container">
+                <h2 class="text-center Bakbak"><span class="greenCLr Bakbak">BINABOX</span> PARTNER</h2>
+                <div class="row justify-content-between mt-5">
+                    <div class="logoWidth">
+                        <img src="assets/illustration/IMG (6).png">
+                    </div>
+                    <div class="logoWidth">
+                        <img src="assets/illustration/IMG (1).png">
+                    </div>
+                    <div class="logoWidth">
+                        <img src="assets/illustration/IMG (2).png">
+                    </div>
+                    <div class="logoWidth">
+                        <img src="assets/illustration/IMG (3).png">
+                    </div>
+                    <div class="logoWidth">
+                        <img src="assets/illustration/IMG (4).png">
+                    </div>
+                    <div class="logoWidth">
+                        <img src="assets/illustration/IMG (5).png">
+                    </div>
+                    <div class="logoWidth">
+                        <img src="assets/illustration/row2/IMG (3).png">
+                    </div>
+                    <div class="logoWidth">
+                        <img src="assets/illustration/row2/IMG (4).png">
+                    </div>
+                    <div class="logoWidth">
+                        <img src="assets/illustration/row2/IMG (5).png">
+                    </div>
+                    <div class="logoWidth">
+                        <img src="assets/illustration/row2/IMG (6).png">
+                    </div>
+                    <div class="logoWidth">
+                        <img src="assets/illustration/row2/IMG (7).png">
+                    </div>
+                    <div class="logoWidth">
+                        <img src="assets/illustration/row2/IMG (8).png">
+                    </div>
+                    <div class="logoWidth">
+                        <img src="assets/illustration/row3/IMG (9).png">
+                    </div>
+                    <div class="logoWidth">
+                        <img src="assets/illustration/row3/IMG (10).png">
+                    </div>
+                    <div class="logoWidth">
+                        <img src="assets/illustration/row3/IMG (11).png">
+                    </div>
+                    <div class="logoWidth">
+                        <img src="assets/illustration/row3/IMG (12).png">
+                    </div>
+                    <div class="logoWidth">
+                        <img src="assets/illustration/row3/IMG (13).png">
+                    </div>
+                    <div class="logoWidth">
+                        <img src="assets/illustration/row3/IMG (14).png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#hamburger-menu").click(function () {
+                $("body").addClass("newMenu");
+            })
+            $(".closebtn").click(function () {
+                $("body").removeClass("newMenu");
+            })
+        })
+    </script>
+</body>
+
+</html>
