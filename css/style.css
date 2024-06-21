@@ -39,7 +39,7 @@
 }
 
 .logo {
-    width: 100px
+    width: 125px
 }
 
 nav ul {
@@ -49,7 +49,7 @@ nav ul {
 
 nav ul li {
     list-style: none;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .navbar,
@@ -121,7 +121,7 @@ nav ul li {
     position: fixed;
     z-index: 1;
     height: auto;
-    top: 8vh;
+    top: 7.4vh;
     right: -100%;
     background-color: #040B11;
     overflow-x: hidden;
@@ -532,6 +532,7 @@ h1 {
 
 .hotCOllection {
     background: #040B11;
+    padding-top: 60px;
 }
 
 .alignheadfive {
@@ -783,7 +784,7 @@ h1 {
     }
 
     .logo {
-        width: -webkit-fill-available;
+        width: 160px;
     }
 
     h1 {
