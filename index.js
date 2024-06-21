@@ -9,13 +9,9 @@ let id = setInterval(function(){
 },20)
 function toggleNav() {
     var sidepanel = document.getElementById("mySidepanel");
-    sidepanel.classList.add('open');  
+    sidepanel.classList.toggle('open');  
   }
-  function closeNav() {
-    var sidepanel = document.getElementById("mySidepanel");
-    sidepanel.classList.remove('open'); // Ensure the 'open' class is removed
-  }
-
-
-  
-
+ 
+ document.querySelector('.hamburger').addEventListener('click', (e) => {
+    e.currentTarget.classList.toggle('is-active');
+  })
