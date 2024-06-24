@@ -18,7 +18,9 @@
 
 .header {
     background: #040B11;
-
+    top: 0px;
+    position: sticky;
+    z-index: 2;
 }
 
 .sunss img {
